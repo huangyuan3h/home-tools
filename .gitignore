@@ -13,3 +13,11 @@
 
 # Dependency directories (remove the comment below to include it)
 # vendor/
+
+# environment
+.env
+
+# the debug file for vs code
+__debug_bin
+# for IDE
+.vscode
