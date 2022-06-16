@@ -4,7 +4,12 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
+	"github.com/stretchr/testify/mock"
 )
+
+type TestConfig struct {
+  mock.Mock
+}
 
 func TestGetConfig(t *testing.T) {
 	c := GetConfig()
